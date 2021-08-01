@@ -1,6 +1,7 @@
 function punto1(){
 	let edad = prompt ("Ingrese un numero del 1 al 10");
-
+	edad = parseInt(edad);
+	
             if (edad > 0 && edad <= 3) {
             document.write ("Muy deficiente");
             }
